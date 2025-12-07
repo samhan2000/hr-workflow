@@ -1,0 +1,72 @@
+.form {
+    display: grid;
+    gap: 14px;
+}
+
+.fieldWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #444;
+}
+
+.input {
+    padding: 6px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.input:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+.radioGroup {
+    display: flex;
+    gap: 14px;
+}
+
+.radioOption {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.kvWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.kvRow {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.addBtn,
+.removeBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.addBtn {
+    color: #2563eb;
+    width: max-content;
+}
+
+.removeBtn {
+    color: #dc2626;
+}
